@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TTS Mobile</string>
+
+    <string name="tab_sintese">Síntese</string>
+    <string name="tab_backend">Backend</string>
+
+    <string name="hint_texto">Digite o texto para sintetizar…</string>
+    <string name="btn_sintetizar">Sintetizar</string>
+    <string name="btn_parar">Parar</string>
+    <string name="btn_salvar_wav">Salvar .wav</string>
+
+    <string name="label_voz">Voz / locutor</string>
+    <string name="label_modelo">Modelo</string>
+    <string name="label_velocidade">Velocidade (%1$s)</string>
+    <string name="label_seed">Seed (vazio = aleatória)</string>
+
+    <string name="status_backend_offline">Backend: parado</string>
+    <string name="status_backend_online">Backend: online · %1$d vozes</string>
+    <string name="status_backend_erro">Backend: erro — veja a aba Backend</string>
+
+    <string name="btn_iniciar_backend">Iniciar backend (PRoot)</string>
+    <string name="btn_parar_backend">Parar backend</string>
+    <string name="btn_verificar_saude">Verificar /health</string>
+
+    <string name="label_url_base">URL base do backend</string>
+    <string name="pref_url_padrao">http://127.0.0.1:5000/</string>
+
+    <string name="lbl_prroot_rootfs">Imagem rootfs do Ubuntu (PRoot)</string>
+    <string name="hint_caminho_rootfs">Ex.: /sdcard/Download/ubuntu-arm64.tar.gz</string>
+    <string name="btn_escolher_rootfs">Escolher .tar.gz / .ext2</string>
+    <string name="lbl_prroot_pacotes">Pacotes a instalar no primeiro boot</string>
+    <string name="hint_pacotes">python3 python3-pip curl ca-certificates</string>
+
+    <string name="log_vazio">— sem eventos —</string>
+    <string name="btn_limpar_log">Limpar log</string>
+
+    <string name="notif_canal_backend">Backend TTS (PRoot)</string>
+    <string name="notif_backend_rodando">PocketTTS backend rodando</string>
+</resources>
