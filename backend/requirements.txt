@@ -1,0 +1,4 @@
+flask>=3.0
+numpy>=1.26
+# PocketTTS (kyutai) — instala do checkout/AppImage conforme README:
+# pockets @ git+https://github.com/kyutai-labs/pocket-tts
